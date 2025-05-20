@@ -1,0 +1,46 @@
+---
+title: "Data Science Website"
+format: html
+editor: visual
+---
+
+## Data Science Questions
+
+1.  What do you think being a data scientist is about?
+
+Being a data scientist to me seems like a collaboration between computer science and statistics. It's about being able to manipulate, visualize, interpret and communication data.
+
+2.  What differences/similarities do you see between data scientists and statisticians?
+
+-   Similarities between data scientists and statisticians
+
+-   Both have a similar skill set, including programming languages, mathematicals skills, and knowledge of statistics
+
+-   Differences between data scientists and statisicians
+
+-   Statisticians seem to be more in the process of designing studies and the methology of a research project where as a data scientist gets more in the weeds of the data.
+
+-   A data scientist seems more multi-faceted
+
+3.  How do you view yourself in relation to these two areas?
+
+I would view myself closer to a statistician as alot of the work I do has to do with setting up research and data collection and analysis to come up with strategic strategies.
+
+## R Code
+
+```{r}
+y <- density(iris$Petal.Width)
+class(y)
+typeof(y)
+str(y)
+```
+
+In the first block of text, I identify the class, type and structure of object y.
+
+```{r}
+#| echo: false
+y <- density(iris$Petal.Width)
+plot(y)
+```
+
+In the second block of text, I plot variable y.

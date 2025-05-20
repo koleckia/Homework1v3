@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "DataScienceWebsite.html",
+    "href": "DataScienceWebsite.html",
+    "title": "Data Science Website",
+    "section": "",
+    "text": "What do you think being a data scientist is about?\n\nBeing a data scientist to me seems like a collaboration between computer science and statistics. It’s about being able to manipulate, visualize, interpret and communication data.\n\nWhat differences/similarities do you see between data scientists and statisticians?\n\n\nSimilarities between data scientists and statisticians\nBoth have a similar skill set, including programming languages, mathematicals skills, and knowledge of statistics\nDifferences between data scientists and statisicians\nStatisticians seem to be more in the process of designing studies and the methology of a research project where as a data scientist gets more in the weeds of the data.\nA data scientist seems more multi-faceted\n\n\nHow do you view yourself in relation to these two areas?\n\nI would view myself closer to a statistician as alot of the work I do has to do with setting up research and data collection and analysis to come up with strategic strategies."
+  },
+  {
+    "objectID": "DataScienceWebsite.html#data-science-questions",
+    "href": "DataScienceWebsite.html#data-science-questions",
+    "title": "Data Science Website",
+    "section": "",
+    "text": "What do you think being a data scientist is about?\n\nBeing a data scientist to me seems like a collaboration between computer science and statistics. It’s about being able to manipulate, visualize, interpret and communication data.\n\nWhat differences/similarities do you see between data scientists and statisticians?\n\n\nSimilarities between data scientists and statisticians\nBoth have a similar skill set, including programming languages, mathematicals skills, and knowledge of statistics\nDifferences between data scientists and statisicians\nStatisticians seem to be more in the process of designing studies and the methology of a research project where as a data scientist gets more in the weeds of the data.\nA data scientist seems more multi-faceted\n\n\nHow do you view yourself in relation to these two areas?\n\nI would view myself closer to a statistician as alot of the work I do has to do with setting up research and data collection and analysis to come up with strategic strategies."
+  },
+  {
+    "objectID": "DataScienceWebsite.html#r-code",
+    "href": "DataScienceWebsite.html#r-code",
+    "title": "Data Science Website",
+    "section": "R Code",
+    "text": "R Code\n\ny &lt;- density(iris$Petal.Width)\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nIn the first block of text, I identify the class, type and structure of object y.\n\n\n\n\n\n\n\n\n\nIn the second block of text, I plot variable y."
+  }
+]
